@@ -9,7 +9,7 @@ public class Main{
 
         WatermarkVideoProcessor processor = new WatermarkVideoProcessor();
 
-        processor.run();
+        processor.multiThreadRun();
     }
 
 }
